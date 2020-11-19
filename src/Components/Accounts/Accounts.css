@@ -1,0 +1,40 @@
+.IncomeExpense-Cont{
+    width: 100%;
+    height: 100%;
+    line-height: 100px;
+}
+.Income-Cont{
+    background-color: rgb(248, 248, 255);
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    width:170px;
+    height: auto;
+    text-align: center;
+    line-height: 10%;
+    border-width: 2px;
+    display: inline-block;
+    box-shadow: 0px 0px 4px 1px black;
+    border-right: 1px solid #dedede;
+    margin-right: 10px;
+}
+
+.Expense-Cont{
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    width:170px;
+    height: auto;
+    text-align: center;
+    line-height: 10%;
+    background-color: rgb(248, 248, 255);
+    border-left: black 2px;
+    display: inline-block;
+    opacity: 100%;
+    box-shadow: 0px 0px 4px 1px black;
+    border-left: 1px solid #dedede;
+}
+.MoneyPlus{
+    color:green; 
+}
+.MoneyMinus{
+    color:red; 
+}

@@ -1,0 +1,154 @@
+input{
+    width: 90%;
+    padding:10px;
+    border-radius:5px;
+    border: none;
+    border-style: flat;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+hr{
+    width: 80%;
+}
+.buttonSubmit{
+    text-align: center;
+    display: inline-block;
+    width:auto;
+    height:auto;
+    padding:auto;
+    background: none;
+    border: 1px;
+    outline: none;
+    box-shadow: none;
+    border-radius: 5px;
+    margin-top: 2%;
+    line-height: 20px;
+    background: ghostwhite;
+    font-size: 14px;
+}
+.buttonSubmit:hover{
+    transform: scale(1);
+    transition: all 1s ease;
+    color:white;
+    background: seagreen;
+}
+.listCont{
+    border-radius: 5px;
+    height:80px;
+    overflow: hidden;
+    transform: scale(1);
+    transition: all 1s ease;
+}
+.listCont:hover{
+    height: 150px;
+    overflow-y: scroll;
+    flex:1;
+    transform: scale(1);
+    transition: all 1s ease;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+.list li {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+    margin-left:1%;
+    margin-right: 1%;
+}
+.list li.plus {
+    border-right: 5px solid rgb(62, 208, 125);
+}
+.list li.plus:hover {
+    border-right: 5px solid green;
+    background:  rgb(62, 208, 125);
+    color: #f7f7f7;
+    transform: scale(1);
+    transition: all 0.4s ease;
+    box-shadow: 1px 1px 5px 1px rgb(62, 54, 54);
+}
+.list li.minus {
+border-right: 5px solid #d34667;
+}
+.list li.minus:hover {
+    border-right: 5px solid #ce4343;
+    background-color: #e3587d;
+    color: #f7f7f7;
+    transform: scale(1);
+    transition: all 0.4s ease;
+    box-shadow: 1px 1px 5px 1px rgb(62, 54, 54);
+}
+.delete-btn {
+    cursor: pointer;
+    border-radius: 10px;
+    font-style: bold;
+    font-weight: bolder;
+    background-color: #8a6a66;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px 5px;
+    position: absolute;
+    top: 0%;
+    left: 52%;
+    transform: translate(-100%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.list li:hover .delete-btn {
+    opacity: 1;
+    background: red;
+    transition: all 1s ease;
+    box-shadow: 2px 2px 10px 2px rgb(62, 54, 54);
+}
+.scroll-btn {
+    cursor: pointer;
+    border-radius: 5px;
+    font-style: bold;
+    background-color: #8a6a66a1;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 2px 5px;
+    position: absolute ;
+    display: inline-block;
+    transform: translate(-100%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index:1;
+    margin-left: 0.9%;
+    margin-top:8%;  
+}
+.TransHistDiv{
+   background: none;
+
+}
+
+.TransHistDiv:hover .scroll-btn {
+    opacity: 1;
+    background: rgba(23, 18, 18, 0.687);
+    transition: all 1s ease;
+    box-shadow: 2px 2px 10px 2px rgb(62, 54, 54);
+    
+}
+
+.list ul li.minus:hover .scroll-btn {
+    opacity: 1;
+    background: black;
+}
+.AddTransactions{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
