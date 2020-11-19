@@ -12,7 +12,7 @@ export const Transactions= () =>{
         <h2>
             Transactions History
             <hr/>
-           <p className='scroll-btn' style={{overflow:'scroll'}}>Scroll</p>
+           <button className='scroll-btn' style={{overflow:'scroll'}}>Scroll</button>
         </h2>
         <div className="listCont">
         
