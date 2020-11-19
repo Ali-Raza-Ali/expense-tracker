@@ -10,7 +10,7 @@ body{
 }
 
 .Main-app{
-  height: 80%;
+  height: 0 auto;
   width: 500px;
   margin-left:auto;
   margin-right: auto;
